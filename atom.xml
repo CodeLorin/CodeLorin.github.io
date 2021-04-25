@@ -18,8 +18,8 @@
   
   <entry>
     <title>Centos安装Git</title>
-    <link href="http://example.com/0c740b046a61"/>
-    <id>http://example.com/0c740b046a61</id>
+    <link href="http://example.com/_posts/0c740b046a61"/>
+    <id>http://example.com/_posts/0c740b046a61</id>
     <published>2021-04-25T04:25:51.000Z</published>
     <updated>2021-04-25T05:27:11.292Z</updated>
     
@@ -51,8 +51,8 @@
   
   <entry>
     <title>Centos安装java</title>
-    <link href="http://example.com/c1b49f6cc382"/>
-    <id>http://example.com/c1b49f6cc382</id>
+    <link href="http://example.com/_posts/c1b49f6cc382"/>
+    <id>http://example.com/_posts/c1b49f6cc382</id>
     <published>2021-04-25T04:25:41.000Z</published>
     <updated>2021-04-25T05:27:04.497Z</updated>
     
@@ -84,8 +84,8 @@
   
   <entry>
     <title>Centos安装Node.js</title>
-    <link href="http://example.com/e928bde0b9fd"/>
-    <id>http://example.com/e928bde0b9fd</id>
+    <link href="http://example.com/_posts/e928bde0b9fd"/>
+    <id>http://example.com/_posts/e928bde0b9fd</id>
     <published>2021-04-25T04:25:33.000Z</published>
     <updated>2021-04-25T05:27:07.993Z</updated>
     
@@ -117,8 +117,8 @@
   
   <entry>
     <title>Centos安装Python3环境</title>
-    <link href="http://example.com/ce035e3e001e"/>
-    <id>http://example.com/ce035e3e001e</id>
+    <link href="http://example.com/_posts/ce035e3e001e"/>
+    <id>http://example.com/_posts/ce035e3e001e</id>
     <published>2021-04-25T04:25:26.000Z</published>
     <updated>2021-04-25T05:27:00.917Z</updated>
     
@@ -150,8 +150,8 @@
   
   <entry>
     <title>Centos安装Docker</title>
-    <link href="http://example.com/78a32cbab478"/>
-    <id>http://example.com/78a32cbab478</id>
+    <link href="http://example.com/_posts/78a32cbab478"/>
+    <id>http://example.com/_posts/78a32cbab478</id>
     <published>2021-04-25T04:24:22.000Z</published>
     <updated>2021-04-25T05:27:14.793Z</updated>
     
@@ -183,8 +183,8 @@
   
   <entry>
     <title>Centos系统环境搭建</title>
-    <link href="http://example.com/2dfcc54038e4"/>
-    <id>http://example.com/2dfcc54038e4</id>
+    <link href="http://example.com/_posts/2dfcc54038e4"/>
+    <id>http://example.com/_posts/2dfcc54038e4</id>
     <published>2021-04-25T04:21:18.000Z</published>
     <updated>2021-04-25T05:26:57.057Z</updated>
     
@@ -216,8 +216,8 @@
   
   <entry>
     <title>HelloWorld</title>
-    <link href="http://example.com/d5bec4482fb2"/>
-    <id>http://example.com/d5bec4482fb2</id>
+    <link href="http://example.com/_posts/d5bec4482fb2"/>
+    <id>http://example.com/_posts/d5bec4482fb2</id>
     <published>2020-05-04T17:00:00.000Z</published>
     <updated>2021-04-25T05:21:11.619Z</updated>
     
