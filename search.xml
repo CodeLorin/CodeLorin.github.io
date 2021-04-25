@@ -4,13 +4,198 @@
   
     
     <entry>
-      <title>java-study</title>
-      <link href="07b724195bb6"/>
-      <url>07b724195bb6</url>
+      <title>Centos安装Git</title>
+      <link href="0c740b046a61"/>
+      <url>0c740b046a61</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="centos安装Git"><a href="#centos安装Git" class="headerlink" title="centos安装Git"></a>centos安装Git</h1><h2 id="一-yum安装-版本较低"><a href="#一-yum安装-版本较低" class="headerlink" title="一.yum安装,版本较低"></a>一.yum安装,版本较低</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install git</span><br></pre></td></tr></table></figure><h2 id="二-源码构建"><a href="#二-源码构建" class="headerlink" title="二.源码构建"></a>二.源码构建</h2><p><a href="https://mirrors.edge.kernel.org/pub/software/scm/git/">git官方下载链接</a></p><p>1.解压</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf git-2.31.1.tar.gz</span><br></pre></td></tr></table></figure><p>2.安装可能所需的依赖</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel gcc-c++ perl-ExtUtils-MakeMaker</span><br></pre></td></tr></table></figure><p>3.安装</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd git-2.31.1</span><br><span class="line">make configure</span><br><span class="line">./configure --prefix=/usr/local/git</span><br><span class="line">make profix=/usr/local/git</span><br><span class="line">make install</span><br></pre></td></tr></table></figure><p>4.加入环境变量</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/profile</span><br></pre></td></tr></table></figure><p>没有yum install vim</p><p>G移到尾部增加</p><p>i进入编辑模式</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git</span></span><br><span class="line">export GIT_HOME=/usr/local/git</span><br><span class="line">export PATH=$PATH:$GIT_HOME/bin</span><br></pre></td></tr></table></figure><p>ese : wq保存</p><p>刷新环境变量</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure><p>5.完成安装</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425101846554.png" alt="image-20210425101846554"></p>]]></content>
       
       
+      <categories>
+          
+          <category> 环境搭建 </category>
+          
+          <category> centos </category>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Centos安装java</title>
+      <link href="c1b49f6cc382"/>
+      <url>c1b49f6cc382</url>
+      
+        <content type="html"><![CDATA[<h1 id="Centos安装java"><a href="#Centos安装java" class="headerlink" title="Centos安装java"></a>Centos安装java</h1><h2 id="1-创建文件"><a href="#1-创建文件" class="headerlink" title="1.创建文件"></a>1.创建文件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/</span><br><span class="line">mkdir java</span><br><span class="line">cd java</span><br></pre></td></tr></table></figure><h2 id="2-解压"><a href="#2-解压" class="headerlink" title="2.解压"></a>2.解压</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf /root/jdk-8u161-linux-x64.tar.gz -C ./</span><br></pre></td></tr></table></figure><h2 id="3-编辑环境变量"><a href="#3-编辑环境变量" class="headerlink" title="3.编辑环境变量"></a>3.编辑环境变量</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;etc&#x2F;profile</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>尾部追加</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">JAVA_HOME=/usr/local/java/jdk1.8.0_161</span><br><span class="line">CLASSPATH=$JAVA_HOME/lib/</span><br><span class="line">PATH=$PATH:$JAVA_HOME/bin</span><br><span class="line">export PATH JAVA_HOME CLASSPATH</span><br></pre></td></tr></table></figure><h2 id="4-刷新"><a href="#4-刷新" class="headerlink" title="4.刷新"></a>4.刷新</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure><h2 id="5-完成安装"><a href="#5-完成安装" class="headerlink" title="5.完成安装"></a>5.完成安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br><span class="line">javac</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425103459894.png" alt="image-20210425103459894"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境搭建 </category>
+          
+          <category> centos </category>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Centos安装Node.js</title>
+      <link href="e928bde0b9fd"/>
+      <url>e928bde0b9fd</url>
+      
+        <content type="html"><![CDATA[<h1 id="Centos安装Node-js"><a href="#Centos安装Node-js" class="headerlink" title="Centos安装Node.js"></a>Centos安装Node.js</h1><p>1.下载Node.js</p><p><a href="https://nodejs.org/en/download/">Node.js官网下载</a></p><p>2.新建文件夹</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/</span><br><span class="line">mkdir node</span><br><span class="line">cd node</span><br></pre></td></tr></table></figure><p>3.解压node.js</p><p>我上传到了/root目录,其他目录也是可以的</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar -xJvf /root/node-v14.16.1-linux-x64.tar.xz -C ./</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>4.环境变量</p><p>编辑~/.bash_profile文件</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bash_profile</span><br></pre></td></tr></table></figure><p>末尾追加</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Node.js</span></span><br><span class="line">export PATH=/usr/local/node/node-v14.16.1-linux-x64/bin:$PATH</span><br></pre></td></tr></table></figure><p>刷新</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bash_profile</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425102715528.png" alt="image-20210425102715528"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境搭建 </category>
+          
+          <category> centos </category>
+          
+          <category> Node.js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+            <tag> Node.js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Centos安装Python3环境</title>
+      <link href="ce035e3e001e"/>
+      <url>ce035e3e001e</url>
+      
+        <content type="html"><![CDATA[<h1 id="Centos安装Python3环境"><a href="#Centos安装Python3环境" class="headerlink" title="Centos安装Python3环境"></a>Centos安装Python3环境</h1><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425095236594.png" alt="image-20210425095236594"></p><p>先看看有没有,有的话可以跳过</p><p><a href="https://www.python.org/downloads/source/">Python官网下载</a></p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425100513844.png" alt="image-20210425100513844"></p><p>这样的就是</p><p>1.上传python3到/root目录,解压文件</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf Python-3.8.6.tgz</span><br></pre></td></tr></table></figure><p>2.下载预备环境</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlit-devel readline-devel tk-devel gcc make</span><br></pre></td></tr></table></figure><p>3.安装</p><blockquote><p>这里制定安装目录为/usr/local/python3</p></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd Python-3.8.6</span><br><span class="line">./configure prefix=/usr/local/python3</span><br><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure><p><del>等好久..</del></p><p>4.设置软链接</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ln -s /usr/local/python3/bin/python3 /usr/bin/python3</span><br><span class="line">ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3</span><br></pre></td></tr></table></figure><p>5.安装成功</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425100212427.png" alt="image-20210425100212427"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境搭建 </category>
+          
+          <category> centos </category>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Centos安装Docker</title>
+      <link href="78a32cbab478"/>
+      <url>78a32cbab478</url>
+      
+        <content type="html"><![CDATA[<h1 id="Centos安装Docker"><a href="#Centos安装Docker" class="headerlink" title="Centos安装Docker"></a>Centos安装Docker</h1><h2 id="1-yum安装依赖"><a href="#1-yum安装依赖" class="headerlink" title="1.yum安装依赖"></a>1.yum安装依赖</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install -y yum-utils</span><br></pre></td></tr></table></figure><h2 id="2-配置镜像"><a href="#2-配置镜像" class="headerlink" title="2.配置镜像"></a>2.配置镜像</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo yum-config-manager \</span><br><span class="line">    --add-repo \</span><br><span class="line">    https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</span><br><span class="line"></span><br><span class="line">sudo sed -i &#x27;s/download.docker.com/mirrors.aliyun.com\/docker-ce/g&#x27; /etc/yum.repos.d/docker-ce.repo</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install docker-ce docker-ce-cli containerd.io</span><br></pre></td></tr></table></figure><h2 id="4-开启服务"><a href="#4-开启服务" class="headerlink" title="4.开启服务"></a>4.开启服务</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl enable docker</span><br><span class="line">sudo systemctl start docker</span><br></pre></td></tr></table></figure><h2 id="3-查看安装结果"><a href="#3-查看安装结果" class="headerlink" title="3.查看安装结果"></a>3.查看安装结果</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure><h2 id="4-开机启动"><a href="#4-开机启动" class="headerlink" title="4.开机启动"></a>4.开机启动</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable docker.service</span><br></pre></td></tr></table></figure><h2 id="5-配置DOCKER镜像"><a href="#5-配置DOCKER镜像" class="headerlink" title="5.配置DOCKER镜像"></a>5.配置DOCKER镜像</h2><p>输入一下命令即可</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir -p /etc/docker</span><br><span class="line">sudo tee /etc/docker/daemon.json &lt;&lt;-&#x27;EOF&#x27;</span><br><span class="line">&#123;</span><br><span class="line">  &quot;registry-mirrors&quot;: [&quot;https://hub-mirror.c.163.com&quot;]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure><h2 id="6-安装成功"><a href="#6-安装成功" class="headerlink" title="6.安装成功"></a>6.安装成功</h2><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425112226262.png" alt="image-20210425112226262"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境搭建 </category>
+          
+          <category> centos </category>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> docker </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Centos系统环境搭建</title>
+      <link href="2dfcc54038e4"/>
+      <url>2dfcc54038e4</url>
+      
+        <content type="html"><![CDATA[<h2 id="一-虚拟机安装Centos"><a href="#一-虚拟机安装Centos" class="headerlink" title="一.虚拟机安装Centos"></a>一.虚拟机安装Centos</h2><blockquote><p>可以选择带GUI版本和命令版</p></blockquote><p><a href="https://mirrors.aliyun.com/centos/7/isos/x86_64/">阿里云centos7下载镜像</a></p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425085945252.png" alt="image-20210425085945252"></p><p>这里建议选择命令行版本最小化安装吧,<del>GUI版本没啥好的.</del></p><ol><li><p>首先ctrl+N新建一个虚拟机</p><pre><code>                                                                                  ![image-20210425090529936](https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425090529936.png)</code></pre></li><li><p>选择.iso镜像</p><pre><code>                                                                               ![image-20210425090622607](https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425090622607.png)</code></pre></li><li><p>修改虚拟机名称和安装位置</p><p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425090718759.png" alt="image-20210425090718759"></p></li><li><p>选择虚拟机硬盘大小,看实际需求选择</p><p> <img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425091019326.png" alt="image-20210425091019326"></p></li><li><p>完成打开虚拟机</p></li></ol><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425091040739.png" alt="image-20210425091040739"></p><ol start="6"><li>等待一会安装完成进入配置界面</li></ol><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425091310671.png" alt="image-20210425091310671"></p><ol start="7"><li><p>选择英文或者往下拉选择简体中文</p></li><li><p>点击网络配置一下网络和修改一下主机名字</p><p>8.1首先在左边虚拟机右键选择设置进入</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425091812373.png" alt="image-20210425091812373"></p><blockquote><p>在家里用有路由器可以选择桥接复制状态，然后在路由器中配置静态ip</p><p>当然也可以使用NAT模式</p></blockquote><p>8.2配置ip</p><p>这里点击配置选择静态ip,设置一个路由器下的静态ip或NAT.</p><p>记得DNS要选择正确(比如114.114.114.114),我这里选择的是路由器的网关,要不到时候可能会异常</p></li></ol><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425092705835.png" alt="image-20210425092705835"></p><pre><code>8.点击安装,设置root密码</code></pre><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425092135913.png" alt="image-20210425092135913"></p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425092207540.png" alt="image-20210425092207540"></p><p>当然你也可以创建一个新用户</p><p>完成安装</p><p>9.登录成功</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425093024602.png" alt="image-20210425093024602"></p><h2 id="二-配置SSH"><a href="#二-配置SSH" class="headerlink" title="二.配置SSH"></a>二.配置SSH</h2><p>1.安装 网络工具</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install net-tools</span><br></pre></td></tr></table></figure><p>2.看看ip配置</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure><p>出现前面配置的ip就可以了</p><p>3.查看ssh版本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425094118082.png" alt="image-20210425094118082"></p><p>4.ssh登录</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/CodeLorin/img/img/image-20210425094234388.png" alt="image-20210425094234388"></p><p>接受并保存</p><h2 id="三-安装python3环境"><a href="#三-安装python3环境" class="headerlink" title="三.安装python3环境"></a>三.安装python3环境</h2><p><a href="https://www.codelorin.cn/ce035e3e001e">python3</a></p><h2 id="四-安装Node-js环境"><a href="#四-安装Node-js环境" class="headerlink" title="四.安装Node.js环境"></a>四.安装Node.js环境</h2><p><a href="https://www.codelorin.cn/e928bde0b9fd">Node.js</a></p><h2 id="五-安装git"><a href="#五-安装git" class="headerlink" title="五.安装git"></a>五.安装git</h2><p><a href="https://www.codelorin.cn/0c740b046a61">git</a></p><h2 id="六-安装java"><a href="#六-安装java" class="headerlink" title="六.安装java"></a>六.安装java</h2><p><a href="https://www.codelorin.cn/c1b49f6cc382">java</a></p><h2 id="七-安装docker"><a href="#七-安装docker" class="headerlink" title="七.安装docker"></a>七.安装docker</h2><p><a href="https://www.codelorin.cn/78a32cbab478">docker</a></p><h2 id="八-下载软件打包"><a href="#八-下载软件打包" class="headerlink" title="八.下载软件打包"></a>八.下载软件打包</h2><p>链接：<a href="https://pan.baidu.com/s/1TRPoB2_hxPSFbYh_Xep6DQ">https://pan.baidu.com/s/1TRPoB2_hxPSFbYh_Xep6DQ</a><br>提取码：6666 </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境搭建 </category>
+          
+          <category> centos </category>
+          
+          <category> 虚拟机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> centos </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+            <tag> 虚拟机 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -18,8 +203,8 @@
     
     <entry>
       <title>HelloWorld</title>
-      <link href="af1c8262f8bd"/>
-      <url>af1c8262f8bd</url>
+      <link href="d5bec4482fb2"/>
+      <url>d5bec4482fb2</url>
       
         <content type="html"><![CDATA[<p>by CodeLorin</p>]]></content>
       

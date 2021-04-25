@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-21T17:06:23.150Z</updated>
+  <updated>2021-04-25T05:27:11.292Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,24 +17,209 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>java-study</title>
-    <link href="http://example.com/07b724195bb6"/>
-    <id>http://example.com/07b724195bb6</id>
-    <published>2021-04-21T17:06:23.000Z</published>
-    <updated>2021-04-21T17:06:23.150Z</updated>
+    <title>Centos安装Git</title>
+    <link href="http://example.com/0c740b046a61"/>
+    <id>http://example.com/0c740b046a61</id>
+    <published>2021-04-25T04:25:51.000Z</published>
+    <updated>2021-04-25T05:27:11.292Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;centos安装Git&quot;&gt;&lt;a href=&quot;#centos安装Git&quot; class=&quot;headerlink&quot; title=&quot;centos安装Git&quot;&gt;&lt;/a&gt;centos安装Git&lt;/h1&gt;&lt;h2 id=&quot;一-yum安装-版本较低&quot;&gt;&lt;a</summary>
+        
+      
     
     
     
+    <category term="环境搭建" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
+    <category term="centos" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/"/>
+    
+    <category term="git" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/git/"/>
+    
+    
+    <category term="centos" scheme="http://example.com/tags/centos/"/>
+    
+    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="git" scheme="http://example.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos安装java</title>
+    <link href="http://example.com/c1b49f6cc382"/>
+    <id>http://example.com/c1b49f6cc382</id>
+    <published>2021-04-25T04:25:41.000Z</published>
+    <updated>2021-04-25T05:27:04.497Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Centos安装java&quot;&gt;&lt;a href=&quot;#Centos安装java&quot; class=&quot;headerlink&quot; title=&quot;Centos安装java&quot;&gt;&lt;/a&gt;Centos安装java&lt;/h1&gt;&lt;h2 id=&quot;1-创建文件&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="centos" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/"/>
+    
+    <category term="java" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/java/"/>
+    
+    
+    <category term="centos" scheme="http://example.com/tags/centos/"/>
+    
+    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos安装Node.js</title>
+    <link href="http://example.com/e928bde0b9fd"/>
+    <id>http://example.com/e928bde0b9fd</id>
+    <published>2021-04-25T04:25:33.000Z</published>
+    <updated>2021-04-25T05:27:07.993Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Centos安装Node-js&quot;&gt;&lt;a href=&quot;#Centos安装Node-js&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="centos" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/"/>
+    
+    <category term="Node.js" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/Node-js/"/>
+    
+    
+    <category term="centos" scheme="http://example.com/tags/centos/"/>
+    
+    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Node.js" scheme="http://example.com/tags/Node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos安装Python3环境</title>
+    <link href="http://example.com/ce035e3e001e"/>
+    <id>http://example.com/ce035e3e001e</id>
+    <published>2021-04-25T04:25:26.000Z</published>
+    <updated>2021-04-25T05:27:00.917Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Centos安装Python3环境&quot;&gt;&lt;a href=&quot;#Centos安装Python3环境&quot; class=&quot;headerlink&quot; title=&quot;Centos安装Python3环境&quot;&gt;&lt;/a&gt;Centos安装Python3环境&lt;/h1&gt;&lt;p&gt;&lt;img src=</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="centos" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/"/>
+    
+    <category term="python" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/python/"/>
+    
+    
+    <category term="centos" scheme="http://example.com/tags/centos/"/>
+    
+    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos安装Docker</title>
+    <link href="http://example.com/78a32cbab478"/>
+    <id>http://example.com/78a32cbab478</id>
+    <published>2021-04-25T04:24:22.000Z</published>
+    <updated>2021-04-25T05:27:14.793Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Centos安装Docker&quot;&gt;&lt;a href=&quot;#Centos安装Docker&quot; class=&quot;headerlink&quot; title=&quot;Centos安装Docker&quot;&gt;&lt;/a&gt;Centos安装Docker&lt;/h1&gt;&lt;h2 id=&quot;1-yum安装依赖&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="centos" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/"/>
+    
+    <category term="docker" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/docker/"/>
+    
+    
+    <category term="centos" scheme="http://example.com/tags/centos/"/>
+    
+    <category term="docker" scheme="http://example.com/tags/docker/"/>
+    
+    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos系统环境搭建</title>
+    <link href="http://example.com/2dfcc54038e4"/>
+    <id>http://example.com/2dfcc54038e4</id>
+    <published>2021-04-25T04:21:18.000Z</published>
+    <updated>2021-04-25T05:26:57.057Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一-虚拟机安装Centos&quot;&gt;&lt;a href=&quot;#一-虚拟机安装Centos&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="环境搭建" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="centos" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/"/>
+    
+    <category term="虚拟机" scheme="http://example.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="centos" scheme="http://example.com/tags/centos/"/>
+    
+    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="虚拟机" scheme="http://example.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>HelloWorld</title>
-    <link href="http://example.com/af1c8262f8bd"/>
-    <id>http://example.com/af1c8262f8bd</id>
+    <link href="http://example.com/d5bec4482fb2"/>
+    <id>http://example.com/d5bec4482fb2</id>
     <published>2020-05-04T17:00:00.000Z</published>
-    <updated>2021-04-24T13:34:14.799Z</updated>
+    <updated>2021-04-25T05:21:11.619Z</updated>
     
     
       
