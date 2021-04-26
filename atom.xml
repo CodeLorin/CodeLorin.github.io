@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-25T05:27:11.292Z</updated>
+  <updated>2021-04-25T11:26:09.775Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,70 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue.js基础学习</title>
+    <link href="http://example.com/posts/6275c3b43a36/"/>
+    <id>http://example.com/posts/6275c3b43a36/</id>
+    <published>2021-04-26T11:11:55.000Z</published>
+    <updated>2021-04-25T11:26:09.775Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一-基础知识&quot;&gt;&lt;a href=&quot;#一-基础知识&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="vue.js" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF/vue-js/"/>
+    
+    
+    <category term="前端" scheme="http://example.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="vue.js" scheme="http://example.com/tags/vue-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaWeb基础学习</title>
+    <link href="http://example.com/posts/fdc6d2613147/"/>
+    <id>http://example.com/posts/fdc6d2613147/</id>
+    <published>2021-04-25T11:21:18.000Z</published>
+    <updated>2021-04-25T12:53:49.458Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-tomcat的配置&quot;&gt;&lt;a href=&quot;#1-tomcat的配置&quot; class=&quot;headerlink&quot; title=&quot;1.tomcat的配置&quot;&gt;&lt;/a&gt;1.tomcat的配置&lt;/h2&gt;&lt;h3 id=&quot;1-下载&quot;&gt;&lt;a href=&quot;#1-下载&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="后端" scheme="http://example.com/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="java" scheme="http://example.com/categories/%E5%90%8E%E7%AB%AF/java/"/>
+    
+    <category term="jsp" scheme="http://example.com/categories/%E5%90%8E%E7%AB%AF/java/jsp/"/>
+    
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+    <category term="后端" scheme="http://example.com/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="servlet" scheme="http://example.com/tags/servlet/"/>
+    
+    <category term="jsp" scheme="http://example.com/tags/jsp/"/>
+    
+  </entry>
   
   <entry>
     <title>Centos安装Git</title>
