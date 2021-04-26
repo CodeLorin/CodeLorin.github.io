@@ -173,9 +173,9 @@
     
     <category term="centos" scheme="http://example.com/tags/centos/"/>
     
-    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
     <category term="Node.js" scheme="http://example.com/tags/Node-js/"/>
+    
+    <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -239,9 +239,9 @@
     
     <category term="centos" scheme="http://example.com/tags/centos/"/>
     
-    <category term="docker" scheme="http://example.com/tags/docker/"/>
-    
     <category term="环境搭建" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="docker" scheme="http://example.com/tags/docker/"/>
     
   </entry>
   
