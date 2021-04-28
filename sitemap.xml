@@ -221,7 +221,7 @@
   </url>
   
   <url>
-    <loc>https://www.codelorin.cn/tags/docker/</loc>
+    <loc>https://www.codelorin.cn/tags/git/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -235,14 +235,7 @@
   </url>
   
   <url>
-    <loc>https://www.codelorin.cn/tags/git/</loc>
-    <lastmod>2021-04-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.codelorin.cn/tags/Node-js/</loc>
+    <loc>https://www.codelorin.cn/tags/docker/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -250,6 +243,13 @@
   
   <url>
     <loc>https://www.codelorin.cn/tags/Python/</loc>
+    <lastmod>2021-04-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.codelorin.cn/tags/Node-js/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -291,20 +291,6 @@
   </url>
   
   <url>
-    <loc>https://www.codelorin.cn/tags/css/</loc>
-    <lastmod>2021-04-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.codelorin.cn/tags/less/</loc>
-    <lastmod>2021-04-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.codelorin.cn/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
@@ -313,6 +299,20 @@
   
   <url>
     <loc>https://www.codelorin.cn/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+    <lastmod>2021-04-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.codelorin.cn/tags/css/</loc>
+    <lastmod>2021-04-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.codelorin.cn/tags/less/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -370,14 +370,14 @@
   </url>
   
   <url>
-    <loc>https://www.codelorin.cn/categories/%E5%89%8D%E7%AB%AF/css/</loc>
+    <loc>https://www.codelorin.cn/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.codelorin.cn/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/</loc>
+    <loc>https://www.codelorin.cn/categories/%E5%89%8D%E7%AB%AF/css/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -398,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/docker/</loc>
+    <loc>https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/git/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -412,7 +412,7 @@
   </url>
   
   <url>
-    <loc>https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/git/</loc>
+    <loc>https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/docker/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -420,20 +420,6 @@
   
   <url>
     <loc>https://www.codelorin.cn/categories/java/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
-    <lastmod>2021-04-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.codelorin.cn/categories/%E5%89%8D%E7%AB%AF/css/less/</loc>
-    <lastmod>2021-04-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/Node-js/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -448,6 +434,20 @@
   
   <url>
     <loc>https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/python/</loc>
+    <lastmod>2021-04-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.codelorin.cn/categories/%E5%89%8D%E7%AB%AF/css/less/</loc>
+    <lastmod>2021-04-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/Node-js/</loc>
     <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
