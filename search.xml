@@ -383,9 +383,9 @@
             
             <tag> centos </tag>
             
-            <tag> 环境搭建 </tag>
-            
             <tag> git </tag>
+            
+            <tag> 环境搭建 </tag>
             
         </tags>
       
@@ -515,9 +515,9 @@
             
             <tag> centos </tag>
             
-            <tag> docker </tag>
-            
             <tag> 环境搭建 </tag>
+            
+            <tag> docker </tag>
             
         </tags>
       
