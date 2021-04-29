@@ -292,9 +292,9 @@
             
             <tag> centos </tag>
             
-            <tag> 环境搭建 </tag>
-            
             <tag> git </tag>
+            
+            <tag> 环境搭建 </tag>
             
         </tags>
       
@@ -424,9 +424,9 @@
             
             <tag> centos </tag>
             
-            <tag> docker </tag>
-            
             <tag> 环境搭建 </tag>
+            
+            <tag> docker </tag>
             
         </tags>
       
@@ -468,6 +468,41 @@
     
     
     <entry>
+      <title>为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer</title>
+      <link href="posts/28649b6f0095/"/>
+      <url>posts/28649b6f0095/</url>
+      
+        <content type="html"><![CDATA[<h1 id="为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer"><a href="#为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer" class="headerlink" title="为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer"></a>为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer</h1><blockquote><p>最终效果</p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/04/29/gFXNCD.png" alt="image-20210429142000885"></p><h2 id="1-收入侧边栏"><a href="#1-收入侧边栏" class="headerlink" title="1.收入侧边栏"></a>1.收入侧边栏</h2><p><img src= "/img/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/04/29/gFqsET.png" alt="image-20210429134930335"></p><p>找到butterfly配置文件APlayer.min.css把他下载下来,上图第一个</p><p>复制代码进入<a href="https://tool.oschina.net/codeformat/css%E6%A0%BC%E5%BC%8F%E5%8C%96">https://tool.oschina.net/codeformat/css格式化</a></p><p>由于.aplayer-body已经开启了fixed定位,只要简单修改一下left并设置最高优先级即可收入侧边栏</p><p>我们只需要在css中加入以下代码即可实现收入侧边栏</p><p>在代码最后加入即可</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-narrow</span> <span class="selector-class">.aplayer-body</span> &#123;</span><br><span class="line">    <span class="attribute">left</span>: -<span class="number">66px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.aplayer-body</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0px</span> <span class="meta">!important</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="2-歌词颜色修改"><a href="#2-歌词颜色修改" class="headerlink" title="2.歌词颜色修改"></a>2.歌词颜色修改</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.aplayer</span> <span class="selector-class">.aplayer-lrc</span> <span class="selector-tag">p</span><span class="selector-class">.aplayer-lrc-current</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>:<span class="number">1</span>;</span><br><span class="line">    <span class="attribute">overflow</span>:visible;</span><br><span class="line">    <span class="attribute">height</span>:auto<span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">min-height</span>:<span class="number">16px</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>找到如上代码修改如下</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.aplayer</span> <span class="selector-class">.aplayer-lrc</span> <span class="selector-tag">p</span><span class="selector-class">.aplayer-lrc-current</span> &#123;</span><br><span class="line">    <span class="comment">/* 大小 */</span></span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">17px</span>;</span><br><span class="line">    <span class="comment">/* 颜色 */</span></span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#1b82f1</span>;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">overflow</span>: visible;</span><br><span class="line">    <span class="attribute">height</span>: auto <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">min-height</span>: <span class="number">16px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.aplayer</span> <span class="selector-class">.aplayer-lrc</span> <span class="selector-tag">p</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>:<span class="number">12px</span>;</span><br><span class="line">    <span class="attribute">color</span>:<span class="number">#666</span>;</span><br><span class="line">    <span class="attribute">line-height</span>:<span class="number">16px</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">16px</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">padding</span>:<span class="number">0</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">margin</span>:<span class="number">0</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">transition</span>:all .<span class="number">5s</span> ease-out;</span><br><span class="line">    <span class="attribute">opacity</span>:.<span class="number">4</span>;</span><br><span class="line">    <span class="attribute">overflow</span>:hidden</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>再修改上面css样式为</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.aplayer</span> <span class="selector-class">.aplayer-lrc</span> <span class="selector-tag">p</span> &#123;</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="number">700</span>;</span><br><span class="line">    <span class="attribute">font-size</span>:<span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">color</span>:<span class="number">#777</span>;</span><br><span class="line">    <span class="attribute">line-height</span>:<span class="number">16px</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">16px</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">padding</span>:<span class="number">0</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">margin</span>:<span class="number">0</span><span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">transition</span>:all .<span class="number">5s</span> ease-out;</span><br><span class="line">    <span class="attribute">opacity</span>:.<span class="number">4</span>;</span><br><span class="line">    <span class="attribute">overflow</span>:hidden</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="3-最后"><a href="#3-最后" class="headerlink" title="3.最后"></a>3.最后</h2><p>保存这个css,替换主题配置文件中的Aplayer.min.css即可</p><p><img src= "/img/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/04/29/gFqsET.png" alt="image-20210429134930335"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+          <category> butterfly </category>
+          
+          <category> aplayer </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> butterfly </tag>
+            
+            <tag> aplayer </tag>
+            
+            <tag> 魔改 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HelloWorld</title>
       <link href="posts/d5bec4482fb2/"/>
       <url>posts/d5bec4482fb2/</url>
@@ -484,9 +519,9 @@
       
         <tags>
             
-            <tag> daily </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> daily </tag>
             
         </tags>
       

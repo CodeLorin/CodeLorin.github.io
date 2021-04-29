@@ -6,7 +6,7 @@
   <link href="https://www.codelorin.cn/atom.xml" rel="self"/>
   
   <link href="https://www.codelorin.cn/"/>
-  <updated>2021-04-29T02:31:06.877Z</updated>
+  <updated>2021-04-29T04:35:50.965Z</updated>
   <id>https://www.codelorin.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.codelorin.cn/posts/c40ae4b5eafd/"/>
     <id>https://www.codelorin.cn/posts/c40ae4b5eafd/</id>
     <published>2021-04-28T15:29:38.000Z</published>
-    <updated>2021-04-29T02:31:06.877Z</updated>
+    <updated>2021-04-29T04:35:50.965Z</updated>
     
     
       
@@ -312,9 +312,9 @@
     
     <category term="centos" scheme="https://www.codelorin.cn/tags/centos/"/>
     
-    <category term="环境搭建" scheme="https://www.codelorin.cn/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
     <category term="git" scheme="https://www.codelorin.cn/tags/git/"/>
+    
+    <category term="环境搭建" scheme="https://www.codelorin.cn/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -444,9 +444,9 @@
     
     <category term="centos" scheme="https://www.codelorin.cn/tags/centos/"/>
     
-    <category term="docker" scheme="https://www.codelorin.cn/tags/docker/"/>
-    
     <category term="环境搭建" scheme="https://www.codelorin.cn/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="docker" scheme="https://www.codelorin.cn/tags/docker/"/>
     
   </entry>
   
@@ -484,6 +484,41 @@
   </entry>
   
   <entry>
+    <title>为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer</title>
+    <link href="https://www.codelorin.cn/posts/28649b6f0095/"/>
+    <id>https://www.codelorin.cn/posts/28649b6f0095/</id>
+    <published>2020-09-24T11:19:00.000Z</published>
+    <updated>2021-04-29T06:24:18.950Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer&quot;&gt;&lt;a href=&quot;#为你的hexo博客添加全局吸底并且收入侧边栏的Aplayer&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="https://www.codelorin.cn/categories/hexo/"/>
+    
+    <category term="butterfly" scheme="https://www.codelorin.cn/categories/hexo/butterfly/"/>
+    
+    <category term="aplayer" scheme="https://www.codelorin.cn/categories/hexo/butterfly/aplayer/"/>
+    
+    
+    <category term="hexo" scheme="https://www.codelorin.cn/tags/hexo/"/>
+    
+    <category term="butterfly" scheme="https://www.codelorin.cn/tags/butterfly/"/>
+    
+    <category term="aplayer" scheme="https://www.codelorin.cn/tags/aplayer/"/>
+    
+    <category term="魔改" scheme="https://www.codelorin.cn/tags/%E9%AD%94%E6%94%B9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HelloWorld</title>
     <link href="https://www.codelorin.cn/posts/d5bec4482fb2/"/>
     <id>https://www.codelorin.cn/posts/d5bec4482fb2/</id>
@@ -504,9 +539,9 @@
     <category term="hexo" scheme="https://www.codelorin.cn/categories/hexo/"/>
     
     
-    <category term="daily" scheme="https://www.codelorin.cn/tags/daily/"/>
-    
     <category term="hexo" scheme="https://www.codelorin.cn/tags/hexo/"/>
+    
+    <category term="daily" scheme="https://www.codelorin.cn/tags/daily/"/>
     
   </entry>
   
