@@ -312,9 +312,9 @@
     
     <category term="centos" scheme="https://www.codelorin.cn/tags/centos/"/>
     
-    <category term="git" scheme="https://www.codelorin.cn/tags/git/"/>
-    
     <category term="环境搭建" scheme="https://www.codelorin.cn/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="git" scheme="https://www.codelorin.cn/tags/git/"/>
     
   </entry>
   
@@ -444,9 +444,9 @@
     
     <category term="centos" scheme="https://www.codelorin.cn/tags/centos/"/>
     
-    <category term="环境搭建" scheme="https://www.codelorin.cn/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
     <category term="docker" scheme="https://www.codelorin.cn/tags/docker/"/>
+    
+    <category term="环境搭建" scheme="https://www.codelorin.cn/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -488,7 +488,7 @@
     <link href="https://www.codelorin.cn/posts/28649b6f0095/"/>
     <id>https://www.codelorin.cn/posts/28649b6f0095/</id>
     <published>2020-09-24T11:19:00.000Z</published>
-    <updated>2021-04-29T06:26:54.056Z</updated>
+    <updated>2021-04-29T06:28:51.728Z</updated>
     
     
       
