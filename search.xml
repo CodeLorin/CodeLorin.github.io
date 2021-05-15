@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>FastAPI框架学习</title>
+      <link href="posts/21ed4f6cc7dd/"/>
+      <url>posts/21ed4f6cc7dd/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-主要特点"><a href="#1-主要特点" class="headerlink" title="1.主要特点"></a>1.主要特点</h2><ul><li>性能优越</li><li>异步</li><li>开发效率高</li><li>自带开发文档</li></ul><h2 id="2-Pydantic"><a href="#2-Pydantic" class="headerlink" title="2.Pydantic"></a>2.Pydantic</h2><blockquote><p>基于python 类型提示来自定义数据验证,序列化和文档的库</p></blockquote><h2 id="3-Starlette"><a href="#3-Starlette" class="headerlink" title="3.Starlette"></a>3.Starlette</h2><blockquote><p>轻量级的ASGI框架/工具包,是构建高性能Asyncio服务的理想选择</p></blockquote><h2 id="4-ASGI"><a href="#4-ASGI" class="headerlink" title="4.ASGI"></a>4.ASGI</h2><ul><li>Uvicorn</li><li>Hypercorn</li><li>Daphne</li></ul><h2 id="5-Demo"><a href="#5-Demo" class="headerlink" title="5.Demo"></a>5.Demo</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">Optional</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> fastapi <span class="keyword">import</span> FastAPI</span><br><span class="line"><span class="keyword">from</span> pydantic <span class="keyword">import</span> BaseModel</span><br><span class="line"></span><br><span class="line">app = FastAPI()  <span class="comment"># 这里不一定是app，名字随意</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">CityInfo</span>(<span class="params">BaseModel</span>):</span></span><br><span class="line">    province: <span class="built_in">str</span></span><br><span class="line">    country: <span class="built_in">str</span></span><br><span class="line">    is_affected: <span class="type">Optional</span>[<span class="built_in">bool</span>] = <span class="literal">None</span>  <span class="comment"># 与bool的区别是可以不传，默认是null</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># @app.get(&#x27;/&#x27;)</span></span><br><span class="line"><span class="comment"># def hello_world():</span></span><br><span class="line"><span class="comment">#     return &#123;&#x27;hello&#x27;: &#x27;world&#x27;&#125;</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># @app.get(&#x27;/city/&#123;city&#125;&#x27;)</span></span><br><span class="line"><span class="comment"># def result(city: str, query_string: Optional[str] = None):</span></span><br><span class="line"><span class="comment">#     return &#123;&#x27;city&#x27;: city, &#x27;query_string&#x27;: query_string&#125;</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># @app.put(&#x27;/city/&#123;city&#125;&#x27;)</span></span><br><span class="line"><span class="comment"># def result(city: str, city_info: CityInfo):</span></span><br><span class="line"><span class="comment">#     return &#123;&#x27;city&#x27;: city, &#x27;country&#x27;: city_info.country, &#x27;is_affected&#x27;: city_info.is_affected&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@app.get(<span class="params"><span class="string">&#x27;/&#x27;</span></span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> <span class="title">hello_world</span>():</span></span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="string">&#x27;hello&#x27;</span>: <span class="string">&#x27;world&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@app.get(<span class="params"><span class="string">&#x27;/city/&#123;city&#125;&#x27;</span></span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> <span class="title">result</span>(<span class="params">city: <span class="built_in">str</span>, query_string: <span class="type">Optional</span>[<span class="built_in">str</span>] = <span class="literal">None</span></span>):</span></span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="string">&#x27;city&#x27;</span>: city, <span class="string">&#x27;query_string&#x27;</span>: query_string&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@app.put(<span class="params"><span class="string">&#x27;/city/&#123;city&#125;&#x27;</span></span>)</span></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> <span class="title">result</span>(<span class="params">city: <span class="built_in">str</span>, city_info: CityInfo</span>):</span></span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="string">&#x27;city&#x27;</span>: city, <span class="string">&#x27;country&#x27;</span>: city_info.country, <span class="string">&#x27;is_affected&#x27;</span>: city_info.is_affected&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动命令  uvicorn hello_world:app --reload</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 后端 </category>
+          
+          <category> Python </category>
+          
+          <category> FastAPI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 后端 </tag>
+            
+            <tag> FastAPI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mysql数据库</title>
       <link href="posts/c40ae4b5eafd/"/>
       <url>posts/c40ae4b5eafd/</url>

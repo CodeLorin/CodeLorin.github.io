@@ -6,7 +6,7 @@
   <link href="https://www.codelorin.cn/atom.xml" rel="self"/>
   
   <link href="https://www.codelorin.cn/"/>
-  <updated>2021-04-30T16:38:38.041Z</updated>
+  <updated>2021-05-11T10:23:36.000Z</updated>
   <id>https://www.codelorin.cn/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FastAPI框架学习</title>
+    <link href="https://www.codelorin.cn/posts/21ed4f6cc7dd/"/>
+    <id>https://www.codelorin.cn/posts/21ed4f6cc7dd/</id>
+    <published>2021-05-11T10:15:02.000Z</published>
+    <updated>2021-05-11T10:23:36.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-主要特点&quot;&gt;&lt;a href=&quot;#1-主要特点&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="后端" scheme="https://www.codelorin.cn/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="Python" scheme="https://www.codelorin.cn/categories/%E5%90%8E%E7%AB%AF/Python/"/>
+    
+    <category term="FastAPI" scheme="https://www.codelorin.cn/categories/%E5%90%8E%E7%AB%AF/Python/FastAPI/"/>
+    
+    
+    <category term="Python" scheme="https://www.codelorin.cn/tags/Python/"/>
+    
+    <category term="后端" scheme="https://www.codelorin.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="FastAPI" scheme="https://www.codelorin.cn/tags/FastAPI/"/>
+    
+  </entry>
   
   <entry>
     <title>Mysql数据库</title>
