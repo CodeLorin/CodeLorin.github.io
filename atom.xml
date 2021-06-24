@@ -73,11 +73,11 @@
     <category term="FastAPI" scheme="https://www.codelorin.cn/categories/%E5%90%8E%E7%AB%AF/Python/FastAPI/"/>
     
     
-    <category term="Python" scheme="https://www.codelorin.cn/tags/Python/"/>
-    
     <category term="后端" scheme="https://www.codelorin.cn/tags/%E5%90%8E%E7%AB%AF/"/>
     
     <category term="FastAPI" scheme="https://www.codelorin.cn/tags/FastAPI/"/>
+    
+    <category term="Python" scheme="https://www.codelorin.cn/tags/Python/"/>
     
   </entry>
   
@@ -228,9 +228,9 @@
     <category term="flask" scheme="https://www.codelorin.cn/categories/%E5%90%8E%E7%AB%AF/Python/flask/"/>
     
     
-    <category term="Python" scheme="https://www.codelorin.cn/tags/Python/"/>
-    
     <category term="后端" scheme="https://www.codelorin.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="Python" scheme="https://www.codelorin.cn/tags/Python/"/>
     
     <category term="flask" scheme="https://www.codelorin.cn/tags/flask/"/>
     
@@ -375,9 +375,9 @@
     <category term="jsp" scheme="https://www.codelorin.cn/categories/%E5%90%8E%E7%AB%AF/java/jsp/"/>
     
     
-    <category term="java" scheme="https://www.codelorin.cn/tags/java/"/>
-    
     <category term="后端" scheme="https://www.codelorin.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="java" scheme="https://www.codelorin.cn/tags/java/"/>
     
     <category term="servlet" scheme="https://www.codelorin.cn/tags/servlet/"/>
     
@@ -509,11 +509,11 @@
     <category term="python" scheme="https://www.codelorin.cn/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/centos/python/"/>
     
     
+    <category term="Python" scheme="https://www.codelorin.cn/tags/Python/"/>
+    
     <category term="centos" scheme="https://www.codelorin.cn/tags/centos/"/>
     
     <category term="环境搭建" scheme="https://www.codelorin.cn/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="Python" scheme="https://www.codelorin.cn/tags/Python/"/>
     
   </entry>
   

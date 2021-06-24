@@ -53,11 +53,11 @@
       
         <tags>
             
-            <tag> Python </tag>
-            
             <tag> 后端 </tag>
             
             <tag> FastAPI </tag>
+            
+            <tag> Python </tag>
             
         </tags>
       
@@ -208,9 +208,9 @@
       
         <tags>
             
-            <tag> Python </tag>
-            
             <tag> 后端 </tag>
+            
+            <tag> Python </tag>
             
             <tag> flask </tag>
             
@@ -352,9 +352,9 @@
       
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 后端 </tag>
+            
+            <tag> java </tag>
             
             <tag> servlet </tag>
             
@@ -486,11 +486,11 @@
       
         <tags>
             
+            <tag> Python </tag>
+            
             <tag> centos </tag>
             
             <tag> 环境搭建 </tag>
-            
-            <tag> Python </tag>
             
         </tags>
       
